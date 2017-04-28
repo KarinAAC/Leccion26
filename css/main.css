@@ -1,0 +1,45 @@
+body{
+  width: 92%;
+  height: 600px;
+  background-image: url("../img/back.jpg");
+
+}
+#contenedor{
+  text-align: center;
+  font-family: "Arial";
+  font-size: 11px;
+  padding: 75px;
+  padding-top: 140px;
+  width: 92%;
+  height: 600px;
+}
+#contenedor h1{
+  font-family: 'League Script', cursive;
+  font-size: 45px;
+}
+#contenedor .input{
+    width: 17%;
+}
+.input:focus {
+  outline: 0;
+}
+#contenedor textarea{
+  font-family: "Arial";
+  width: 15%;
+}
+#contenedor .input{
+  border: 2px solid pink;
+}
+#comentario{
+  border: 1px solid pink;
+}
+#comentario:focus{
+  outline: 0;
+}
+#terminosCondiciones{
+  background: pink;
+}
+#boton{
+  background: pink;
+  border: 1px solid pink;
+}
